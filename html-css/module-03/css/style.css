@@ -1,0 +1,110 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+}
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}
+
+body {
+    font-family: "Playfair Display", "Arial", sans-serif;
+    color: #626262;
+    font-size: 14px;
+    line-height: 24px;
+}
+img {
+    display: inline;
+    max-width: 100%;
+}
+.container {
+   width: 901px;
+   margin: 0 auto;
+}
+.nav_ul {
+    font-size: 0;
+    list-style: none;
+    margin:0;
+    padding:72px 0 99px 0;
+    text-align: center;
+}
+
+.nav_ul li {
+    font-size: 14px;
+    display: inline-block;
+    margin-right: 130px;
+}
+.nav_ul li:last-child {
+    margin-right: 0;
+}
+
+
+.nav_ul a {
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 17px;
+    color:#626262;
+}
+
+section {
+    font-size: 0;
+    padding-bottom: 70px;
+}
+.article {
+    width: 420px;
+    display: inline-block;
+    border: 0;
+    margin-right: 61px;
+}
+.article:nth-of-type(2n) {
+    margin-right: 0;
+}
+
+.article:not(:nth-last-of-type(-n+2)) {
+    margin-bottom: 83px;
+}
+.article h2{
+    font-size: 30px;
+    line-height: 36px;
+    margin: 0 0 37px 0;
+    font-size: 30px;
+}
+
+.article_style {
+    line-height: 16px;
+    color:#b4ad9e;
+    font-family: "ubuntu", "Arial", sans-serif; 
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 0 0 37px 0;
+}
+
+
+.img_title {
+    margin: 0 0 31px 0;
+}
+
+.times {
+    padding: 0 0 52px 0;
+    font-size: 14px; 
+
+}
+
+.next_page {
+    font-size: 20px;
+    border: 1px #000000 solid;
+    color:#626262;
+    padding: 23px 33px;
+    background-color: transparent;
+    margin:0 auto;
+    display: block;
+}
+
