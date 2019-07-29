@@ -15,8 +15,7 @@ img {
   display: block;
 }
 
-:root{
-
+:root {
   --dark: #333333;
   --l_gray: #cccccc;
   --gray: #999999;
