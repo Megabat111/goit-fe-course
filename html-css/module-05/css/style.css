@@ -15,7 +15,8 @@ img {
   display: block;
 }
 
-:root {
+:root{
+
   --dark: #333333;
   --l_gray: #cccccc;
   --gray: #999999;
@@ -184,12 +185,12 @@ h2 {
 }
 
 .slider_left {
-  background-image: url(../img/Slider/2.png);
+  background-image: url(../img/slider/2.png);
   transform: translateX(-555px);
 }
 
 .slider_right {
-  background-image: url(../img/Slider/3.png);
+  background-image: url(../img/slider/3.png);
   transform: translateX(451px);
 }
 
