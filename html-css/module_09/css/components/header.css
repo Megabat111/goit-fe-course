@@ -3,18 +3,16 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding-bottom: 120px;
-      
+    padding-top: 20px;
+    padding-bottom: 114px;
+
+    
 }
 
 .navigation__container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
     margin: 0 auto;
-    width: 170px;
     height: 44px;
-    margin-bottom: 128px;
+    margin-bottom: 115px;
 }
 
 .navigation__container a {
@@ -53,6 +51,7 @@ h1 {
     color: #ffffff;
     text-align: center;
     margin-bottom: 15px;
+    letter-spacing: -0.001em;
 }
 
 .title_1 p {

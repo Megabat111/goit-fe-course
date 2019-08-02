@@ -5,10 +5,6 @@
     padding-bottom: 54px;
 }
 
-.partner_list {
-    list-style: none;
-}
-
 h2 {
    font-family: 'MonB', serif;
    font-weight: 700;
@@ -16,6 +12,11 @@ h2 {
    color: #333333;
    text-align: center;
    margin-bottom: 20px;
+}
+
+.partner_list {
+    list-style: none;
+
 }
 
 .img_team {
@@ -45,22 +46,22 @@ h2 {
 }
 
 .partner_list li:nth-child(1) .img_after::after {
-    background-image: url("/img/icon/1.png");
+    background-image: url("../../img/icon/1.png");
     background-color: #ff4e50;
 }
 
 .partner_list li:nth-child(2) .img_after::after {
-    background-image: url("/img/icon/2.png");
+    background-image: url("../../img/icon/2.png");
     background-color: #ffa507;
 }
 
 .partner_list li:nth-child(3) .img_after::after {
-    background-image: url("/img/icon/3.png");
+    background-image: url("../../img/icon/3.png");
     background-color: #1cd7ad;
 }
 
 .partner_list li:nth-child(4) .img_after::after {
-    background-image: url("/img/icon/4.png");
+    background-image: url("../../img/icon/4.png");
     background-color: #4e73db;
 }
 

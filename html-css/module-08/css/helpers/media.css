@@ -4,8 +4,13 @@
 /* ************** header ***************************** */
 
 .header {
-        background-image: url("../../img/bg/bg1.jpg");
-        padding-bottom: 234px;
+    background-image: url("../../img/bg/bg1.jpg");
+    padding-bottom: 234px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 120px;
+ 
 }
 
 .header_nav {
@@ -15,7 +20,6 @@
     align-items: flex-end;
     flex-direction: row-reverse;
     margin: 0 auto;
-    width: 670px;
     padding-top: 28px;
     margin-bottom: 148px;
 }
@@ -48,6 +52,7 @@ h1 {
 
 /* ************** main ***************************** */
 
+
 .partner {
     padding-top: 70px;
     padding-bottom: 40px;
@@ -58,8 +63,6 @@ h2 {
  }
 
  .partner_list {
-     width: 492px;
-     height: 532px;
      margin: 0 auto;
      display: flex;
      flex-direction: column;
@@ -78,7 +81,7 @@ h2 {
 
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
 
 /* ************** header ***************************** */
 
@@ -97,7 +100,6 @@ h2 {
 .partner {
     padding-bottom: 74px;
 }
-
 
 .partner_list {
     width: 940px;
