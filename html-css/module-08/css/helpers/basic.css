@@ -2,7 +2,6 @@ html {
     box-sizing: border-box;
 }
 
-
 *,
 *::before,
 *::after {
@@ -20,7 +19,7 @@ img {
 a {
     display: block;
 }
-
+/* 
 .container {
     width: 320px;
     margin: 0 auto;
@@ -32,8 +31,8 @@ a {
     }
 }
 
-@media (min-width: 960px) {
+@media (min-width: 1200px) {
     .container {
         width: 940px;
     }
-}
+} */
