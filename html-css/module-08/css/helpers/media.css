@@ -4,7 +4,7 @@
 /* ************** header ***************************** */
 
 .header {
-        background-image: url("/img/bg/bg1.jpg");
+        background-image: url("../../img/bg/bg1.jpg");
         padding-bottom: 234px;
 }
 
@@ -46,6 +46,7 @@ h1 {
 }
 
 
+
 /* ************** main ***************************** */
 
 
@@ -84,7 +85,7 @@ h2 {
 /* ************** header ***************************** */
 
 .header {
-    background-image: url("/img/bg/bg2.jpg");
+    background-image: url("../../img/bg/bg1.jpg");
     padding-bottom: 228px;
 }
 
