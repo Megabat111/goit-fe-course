@@ -1,0 +1,47 @@
+
+logo
+  logo__img
+nav
+  nav__list
+  nav__item
+  nav__link
+  nav__link_icon
+  nav__img
+header
+  header__title
+  header__title_span
+  header__button
+section_1
+  section_1__title
+  section_1__title_span
+  section_1__title_team
+  section_1__descr
+servis__list
+servis-card
+  servis-card__img-wrap
+  servis-card__img
+  servis-card__text
+  servis-card__title
+  servis-card__descr
+team__list
+team-card
+  team-card__img-wrap
+  team-card__img
+  team-card__overlay
+  team-card__title
+  team-card__descr
+social-list
+  social-list__item
+  social-list__link
+  social-list__img
+footer
+  footer__container
+  footer__descr
+  footer__link
+form
+  form__input
+  form__button
+
+title
+
+button
