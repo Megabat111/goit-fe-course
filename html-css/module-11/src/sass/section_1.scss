@@ -1,0 +1,120 @@
+.section_1 {
+  padding-top: 3.875rem;
+  padding-bottom: 5.75rem;
+  }
+  
+  .title {                        
+  font-size: 1.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: $mon;
+  color: $dark;
+  position: relative;
+  margin-bottom: 6.875rem;
+  text-align: center;
+  }
+  
+  .title::before {
+  position: absolute;
+  content: "";
+  width: 3.75rem;
+  height: 0.1875rem;
+  left: 50%;
+  bottom: -2.5rem;
+  background-color: $red;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;  
+  }
+  
+  .section_1__title_span,
+  .team__title_span {
+  display: block;
+  font-weight: normal;
+  font-size: 1.5rem;
+  font-family: $kau;
+  text-transform: none;
+  margin-bottom: 1.125rem;
+  }
+  
+  .servis__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  min-height: 15rem;
+  list-style: none;
+  }
+  
+  .servis-card {
+  position: relative;
+  width: 21.875rem;
+  padding-left: 5.75rem;
+  }
+  
+  h3 {
+  text-transform: uppercase;
+  font-family: $mon;
+  font-size: 0.875rem;
+  font-weight: normal;
+  color: $dark;
+  }
+  
+  .servis-card__title {
+    margin-bottom: 1.5rem;
+  }
+  
+  .servis-card__text {
+  font-family: $rob;
+  font-size: 0.9375rem;
+  font-weight: normal;
+  color: $gray;
+  line-height: 1.5rem;
+  }
+  
+  .servis-card::before {
+  content: "";
+  position: absolute;
+  height: 2rem;
+  width: 2rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  left: 2.8125rem;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  }
+  
+  .servis-card:nth-of-type(1)::before {
+  background-image: url(../images/icon/icon-clock.svg);
+  }
+  
+  .servis-card:nth-of-type(2)::before {
+  background-image: url(../images/icon/icon-graph.svg);
+  }
+  
+  .servis-card:nth-of-type(3)::before {
+  background-image: url(../images/icon/icon-desktop.svg);
+  }
+  
+  .servis-card:nth-of-type(4)::before {
+  background-image: url(../images/icon/icon-book.svg);
+  }
+  
+  .servis-card:nth-of-type(5)::before {
+  background-image: url(../images/icon/icon-home.svg);
+  }
+  
+  .servis-card:nth-of-type(6)::before {
+  background-image: url(../images/icon/icon-image.svg);
+  }
+  

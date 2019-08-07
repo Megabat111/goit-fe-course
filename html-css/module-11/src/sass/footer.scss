@@ -1,0 +1,55 @@
+.footer__container {
+
+  display: -webkit-box;
+  
+  display: -ms-flexbox;
+  
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 4rem;
+  border-top: 0.0625rem solid $l_gray;
+  }
+  
+  .footer__descr {
+  font-family: $mon;
+  font-weight: 400;
+  color: $dark;
+  }
+  
+  .footer__link {
+  color: $red;
+  }
+  
+  .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  }
+  
+  .form__input {
+  width: 14.375rem;
+  height: 2.5rem;
+  border:  0.0625rem solid $l_gray;
+  font-family: $rob;
+  font-weight: 300;
+  font-style: italic;
+  }
+  
+  .form__button {
+  width: 9.5rem;
+  height: 2.5rem;
+  background-color: $green;
+  font-family: $mon;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: $white;
+  text-transform: uppercase;
+  border: 0;
+  }
+  
+  
